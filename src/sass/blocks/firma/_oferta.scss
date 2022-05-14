@@ -1,0 +1,36 @@
+.oferta {
+    padding-top: 123px;
+    &__title {
+        font-family: 'Montserrat';
+        font-size: 32px;
+        line-height: 52px;
+        color: #076BAC;
+    }
+    &__wrapper {
+        margin-top: 75px;
+        display: grid;
+        grid-template-columns: repeat(3, 380px);
+        grid-template-rows: repeat(3, minmax(338px, auto));
+        grid-auto-rows: minmax(338px, auto);
+        justify-content: space-between;
+        row-gap: 44px;
+    }
+}
+
+.product {
+    display: grid;
+    width: 100%;
+    // min-height: 338px;
+    background-color: #fff;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    img {
+        width: 100%;
+    }
+    &__title {
+        margin-left: 24px;
+        font-family: 'DM Sans';
+        font-size: 20px;
+        line-height: 27px;
+        color: #242424;
+    }
+}

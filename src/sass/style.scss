@@ -1,0 +1,35 @@
+* {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    p {
+        margin: 0;
+    }
+}
+
+body {
+    background: rgb(252, 251, 251);
+}
+
+.container {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.brnone {
+    display: none;
+}
+
+@import './blocks/header.scss';
+@import './blocks/main.scss';
+@import './blocks/footer.scss';
+@import './blocks/firma/firma.scss';
+@import './blocks/firma/oferta.scss';
+@import './blocks/cennik.scss';
+@import './blocks/about.scss';
+@import './blocks/qual.scss';
+@import './blocks/contacts.scss';
+@import './media.scss';

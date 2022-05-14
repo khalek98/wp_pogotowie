@@ -1,0 +1,86 @@
+.cennik {
+    padding: 100px 0 70px 0;
+    &__title {
+        display: block;
+        font-family: 'Montserrat';
+        font-size: 32px;
+        line-height: 52px;
+        text-align: center;
+        color: #242424;
+    }
+    &__subtitle {
+        margin-top: 16px;
+        margin-bottom: 16px;
+        font-family: 'DM Sans';
+        font-size: 20px;
+        line-height: 27px;
+        text-align: center;
+        color: #383738;
+    }
+    .price {
+        margin-top: 37px;
+        &__title {
+            margin-left: 34px;
+            font-family: 'Montserrat';
+            font-size: 32px;
+            line-height: 40px;
+            color: #076BAC;
+            text-transform: uppercase;
+        }
+        &__block {
+            margin-top: 37px;
+            padding: 26px 58px 26px 26px;
+            border: 2px solid #D9DCE5;
+        }
+        &__subtitle {
+            font-family: 'Montserrat';
+            font-size: 32px;
+            line-height: 40px;
+            color: #076BAC;
+        }
+        &__items {
+            margin-top: 19px;
+            > .price__item-service {
+                margin-left: 34px;
+            }
+        }
+        &__item {
+            display: grid;
+            grid-template-columns: 70% 30%;
+            row-gap: 5px;
+            justify-content: space-between;
+            margin-left: 26px;
+            font-family: 'DM Sans';
+            font-size: 26px;
+            line-height: 28px;
+            color: #808080;
+            &-service, &-cost {
+                font-family: 'DM Sans';
+                font-size: 26px;
+                line-height: 28px;
+                color: #808080;
+            }
+            &-cost {
+                justify-self: end;
+            }
+        }
+        &__descr {
+            margin-top: 22px;
+            font-family: 'DM Sans';
+            font-size: 26px;
+            line-height: 28px;
+            color: #808080;
+        }
+    }
+    &__info {
+        margin: 67px 0 60px 34px;
+        font-family: 'DM Sans';
+        font-size: 20px;
+        line-height: 27px;
+        color: #383738;
+    }
+    &__outside {
+        margin-left: 34px;
+        margin-top: 70px;
+    }
+}

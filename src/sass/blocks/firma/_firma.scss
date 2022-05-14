@@ -1,0 +1,129 @@
+.firma {
+    padding-top: 100px;
+    min-height: 554px;
+}
+.desiccation {
+    padding-top: 90px;
+}
+
+.cockroaches,
+.bedbugs,
+.disinsection,
+.deratization,
+.ozonation,
+.after-deaths,
+.washing {
+    padding-top: 62px;
+}
+.washing {
+    padding-bottom: 79px;
+}
+
+.ozonation-gives {
+    padding-top: 65px;
+    &__title {
+        margin-left: 44px;
+        font-family: 'Montserrat';
+        font-size: 32px;
+        line-height: 52px;
+        color: #076BAC;
+    }
+    &__wrapper {
+        display: grid;
+        margin-left: 27px;
+        margin-top: 49px;
+        grid-template-columns: repeat(2, 544px);
+        grid-auto-rows: 134px;
+        gap: 27px 34px;
+    }
+    &__block {
+        display: grid;
+        grid-template: 86px / 87px 345px;
+        align-items: center;
+        column-gap: 35px;
+        padding: 25px 50px 23px 27px;
+        border: 2px solid #D9DCE5;
+    }
+    &__shield {
+        display: block;
+        width: 100%;
+        height: 100%;
+        background: url('../icons/dom/shield.svg') center (center/contain) no-repeat;
+        align-items: center;
+    }
+    &__descr {
+        max-width: 345px;
+        font-family: 'DM Sans';
+        font-size: 26px;
+        line-height: 26px;
+        color: #808080;
+    }
+}
+
+.dom {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    &__right {
+        height: 492px;
+    }
+    &__rectangle {
+        display: flex; 
+        width: 492px;
+        height: 492px;
+        background: #076BAC;
+        border-radius: 100%;
+        margin-left: -78px;
+        &_right {
+            position: absolute;
+            right: -43px;
+        }
+    }
+    &__img {
+        display: flex;
+        width: 459px;
+        height: 492px;
+        img {
+            margin-left: 105px;
+            height: 100%;
+        }
+        &_right {
+            & > img {
+                position: absolute;
+                right: 105px;
+            }
+        }
+    }
+    &__descr {
+        margin-top: 12px;
+        width: 535px;
+        margin-left: 168px;
+        &_right {
+            margin-left: 23px;
+        }
+    }
+    &__title {
+        font-family: 'Montserrat';
+        font-size: 32px;
+        line-height: 48px;
+        color: #242424;
+        span {
+            color: #076BAC;
+        }
+    }
+    &__info {
+        margin-top: 21px;
+        font-family: 'DM Sans';
+        font-size: 20px;
+        line-height: 27px;
+        color: #383738;
+    }
+    &__bottom-descr {
+        margin-top: 40px;
+        padding: 0 23px 0 23px;
+        font-family: 'DM Sans';
+        font-size: 20px;
+        line-height: 27px;
+        color: #383738;
+    }
+}

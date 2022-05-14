@@ -1,0 +1,110 @@
+.footer {
+    height: 442px;
+    background: #81B3D6;
+    &__logo {
+        img {
+            height: 100%;
+            width: 100%;
+            object-fit: contain;
+        }
+    }
+    &__top {
+        display: flex;
+        padding: 67px 227px 68px 89px;
+        justify-content: space-between;
+    }
+    &__label {
+        margin-top: 4px;
+        width: 338px;
+        font-family: 'DM Sans';
+        font-size: 16px;
+        line-height: 24px;
+        color: #FFFFFF;
+        opacity: 0.9;
+    }
+    &__social {
+        margin-top: 80px;
+        &-title {
+            font-family: 'Montserrat';
+            font-size: 20px;
+            line-height: 26px;
+            color: #FFFFFF;
+        }
+        &-items {
+            display: flex;
+            margin-top: 26px;
+            max-width: 125px;
+            height: 21px;
+        }
+        &-item {
+            margin-right: 13px;
+        }
+    }
+    &__midle {
+        margin-top: 4px;
+        max-height: 194px;
+        min-width: 305px;
+        display: flex;
+        flex-direction: column;
+    }   
+    &__menu {
+        font-family: 'Montserrat';
+        font-size: 20px;
+        line-height: 24px;
+        color: #FFFFFF;
+        &-items {
+            margin-top: 30px;
+            margin-bottom: 0;
+            max-width: 305px;
+            max-height: 156px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+        }
+        &-item {
+            display: flex;
+            margin-bottom: 16px;
+            list-style-type: none;
+            width: 194px;
+        }
+        &-link {
+            font-family: 'DM Sans';
+            font-size: 18px;
+            line-height: 23px;
+            color: #FFFFFF;
+            width: 100%;
+            opacity: 0.9;
+            &:hover {
+                text-decoration: none;
+                color: #FFFFFF;
+            }
+        }
+    }
+    &__divider {
+        height: 1px;
+        width: 100%;
+        background: #506E71;
+    }
+    &__rights {
+        display: block;
+        // margin: 20px auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+        font-family: 'DM Sans';
+        font-size: 18px;
+        line-height: 23px;
+        color: #FFFFFF;
+        opacity: 0.9;
+        transform: translateX(-90px);
+        cursor: pointer;
+        &:hover {
+            text-decoration: none;
+            color: #FFFFFF;
+        }
+    }
+}
+
+.nbm {
+    margin-bottom: 0;
+}
