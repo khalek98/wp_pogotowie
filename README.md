@@ -1,3 +1,3 @@
 # wp_pogotowie
-Ready WordPress website from scratch.
+Created a pre-built WordPress site from scratch.<br/>
 Link: https://pogotowiehigieniczne.pl/
